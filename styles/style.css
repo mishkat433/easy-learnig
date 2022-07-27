@@ -1,0 +1,19 @@
+#carousal-height {
+    height: 90vh;
+}
+
+
+
+@media screen and (min-width:689px) and (max-width:992px) {
+
+    #carousal-height {
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width:688px) {
+
+    #carousal-height {
+        height: 60vh;
+    }
+}
