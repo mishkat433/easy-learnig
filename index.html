@@ -445,98 +445,92 @@
 
             <div id="default-carousel" class="relative" data-carousel="static">
                 <!-- Carousel wrapper -->
-                <div class="overflow-auto md:overflow-hidden relative rounded-lg h-96">
-                    <div class="">
-                        <!-- Item 1 -->
-                        <div class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-0 z-20 w-2/4 "
-                            data-carousel-item="">
-                            <div class="mx-2 lg:mx-10 border-2 p-10 space-y-5">
-                                <div class="flex justify-between ">
-                                    <img src="./images/comma.png" class=" " alt="...">
-                                    <div class="text-yellow-500">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star-half-stroke"></i>
-                                    </div>
-                                </div>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                    suffered alteration in some form, by injected humour, or randomised words which
-                                    don't
-                                    look even slightly believable. If you are going to use a passage of Lorem.</p>
-                                <div class="flex items-center">
-                                    <img class="w-1/6" src="./images/student/student-5.png" alt="">
-                                    <div class="ml-5">
-                                        <h5 class="font-semibold text-lg">Awlad Hossain</h5>
-                                        <p>UI Designer</p>
-                                    </div>
+                <div class="overflow-y-visible md:overflow-auto lg:overflow-hidden relative rounded-lg h-96">
+                    <!-- Item 1 -->
+                    <div class="duration-700 ease-in-out absolute inset-0 transition-all transform  z-20 w-2/4 "
+                        data-carousel-item="">
+                        <div class="mx-2 md:mx-10 border-2 p-2 md:p-10 space-y-5">
+                            <div class="flex justify-between ">
+                                <img src="./images/comma.png" class=" " alt="...">
+                                <div class="text-yellow-500">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
                                 </div>
                             </div>
-                        </div>
-                        <!-- Item 2 -->
-                        <div class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-0 z-20 w-2/4 "
-                            data-carousel-item="">
-                            <div class=" mx-2 md:mx-10 border-2 p-10 space-y-5">
-                                <div class="flex justify-between ">
-                                    <img src="./images/comma.png" class=" " alt="...">
-                                    <div class="text-yellow-500">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star-half-stroke"></i>
-                                    </div>
-                                </div>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                    suffered alteration in some form, by injected humour, or randomised words which
-                                    don't
-                                    look even slightly believable. If you are going to use a passage of Lorem.</p>
-                                <div class="flex items-center">
-                                    <img class="w-1/6" src="./images/student/student-6.png" alt="">
-                                    <div class="ml-5">
-                                        <h5 class="font-semibold text-lg">Samiya Khatun</h5>
-                                        <p>UI Designer</p>
-                                    </div>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered alteration in some form, by injected humour, or randomised words which
+                                don't</p>
+                            <div class="flex items-center">
+                                <img class="w-1/5 md:w-1/5 lg:w-1/6" src="./images/student/student-5.png" alt="">
+                                <div class="ml-5">
+                                    <h5 class="font-semibold text-lg">Awlad Hossain</h5>
+                                    <p>UI Designer</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Slider controls -->
-                    <button type="button"
-                        class="  flex absolute top-0 left-0  md:left-5 z-30 justify-center items-center h-full cursor-pointer group "
-                        data-carousel-prev="">
-                        <span
-                            class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-blue-500  group-hover:bg-blue-500">
-                            <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
-                                fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M15 19l-7-7 7-7">
-                                </path>
-                            </svg>
-                            <span class="sr-only">Previous</span>
-                        </span>
-                    </button>
-                    <button type="button"
-                        class="flex absolute top-0 right-0 md:right-5 z-30 justify-center items-center h-full cursor-pointer group focus:outline-none"
-                        data-carousel-next="">
-                        <span
-                            class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-blue-500  group-hover:bg-blue-500">
-                            <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
-                                fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
-                                </path>
-                            </svg>
-                            <span class="sr-only">Next</span>
-                        </span>
-                    </button>
+                    <!-- Item 2 -->
+                    <div class="duration-700 ease-in-out absolute inset-0 transition-all transform  z-20 w-2/4 "
+                        data-carousel-item="">
+                        <div class=" mx-2 md:mx-10 border-2 p-2 md:p-10 space-y-5">
+                            <div class="flex justify-between ">
+                                <img src="./images/comma.png" class=" " alt="...">
+                                <div class="text-yellow-500">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                            </div>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered alteration in some form, by injected humour, or randomised words which
+                                don't</p>
+                            <div class="flex items-center">
+                                <img class="w-1/5  md:w-1/5 lg:w-1/6" src="./images/student/student-6.png" alt="">
+                                <div class="ml-5">
+                                    <h5 class="font-semibold text-lg">Samiya Khatun</h5>
+                                    <p>UI Designer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
+                <!-- Slider controls -->
+                <button type="button"
+                    class="  flex absolute top-0 left-0  md:left-5 z-30 justify-center items-center h-full cursor-pointer group "
+                    data-carousel-prev="">
+                    <span
+                        class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-blue-500  group-hover:bg-blue-500">
+                        <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none"
+                            stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7">
+                            </path>
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button"
+                    class="flex absolute top-0 right-0 md:right-5 z-30 justify-center items-center h-full cursor-pointer group focus:outline-none"
+                    data-carousel-next="">
+                    <span
+                        class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-blue-500  group-hover:bg-blue-500">
+                        <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none"
+                            stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                            </path>
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+            </div>
+            </div>
         </section>
         <!-- feedback end -->
 
@@ -572,19 +566,12 @@
                             the primary demarcation
                             between Flexbox and CSS Grid. Flexbox was designed specifically for one-dimensional layouts,
                             while CSS Grid is engineered to enable two-dimensional layouts. Therefore, CSS Grid can
-                            easily render rows and columns simultaneously.
-                            In layperson's terms, CSS Grid presents a larger canvas, while Flexbox offers minute
-                            functionality that operates in a restricted space. The grids have been designed for a
-                            two-dimensional organization.</p>
+                            easily render rows and columns simultaneously.</p>
                         <p class=""><strong>Grid :
                             </strong>
                             CSS Grid aligns items in columns and rows, allowing developers to easily control the
                             rendering and appearance of large layouts and whole pages meant for the desktop, tablet,
-                            and smartphone displays.
-                            Items are placed inside the cells defined by the grid. Creating and defining the overall
-                            layouts remains the strong suit for CSS Grid. Internet Explorer, Chrome, Safari, Edge,
-                            and Firefox support Grid. Notably, Opera Mini, Blackberry Browser, QQ Browser, and Baidu
-                            Browser does not support Grid.</p>
+                            and smartphone displays.</p>
                     </div>
                 </div>
                 <h2 id="accordion-collapse-heading-2">
