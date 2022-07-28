@@ -1,19 +1,21 @@
+* {
+    scroll-behavior: smooth;
+}
+
 #carousal-height {
     height: 90vh;
 }
 
-
-
 @media screen and (min-width:689px) and (max-width:992px) {
 
     #carousal-height {
-        height: 70vh;
+        height: 80vh;
     }
 }
 
 @media screen and (max-width:688px) {
 
     #carousal-height {
-        height: 60vh;
+        height: 50vh;
     }
 }
